@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(Assets/topography.svg), linear-gradient(
+110deg, #f93d66, #6d47d9);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+button{
+    background-color: yellow;
+    width: 250px;
+    height: 35px;
+    border: none;
+    font-weight: 900;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.89);
+}
+.prv{
+    color: rgba(0, 0, 0, 0.801);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.slika{
+    width: 70%;
+    height: 500px;
+    background-image: url(Assets/main_img.jpeg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+.slika h1{
+    background-color: yellow;
+    line-height: 30px;
+    margin-left: 40px;
+    padding: 10px;
+}
+.slika p{
+    background-color: yellow;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 500px;
+    gap: 20px;
+}
+.price1{
+    background-color: yellow;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.price1 h1{
+    font-size: 50px;
+}
+
+.vtor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.div{
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.beer{
+    width: 48px;
+}
+.div p{
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.596);
+    font-weight: bold;
+}
+
+.taco{
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.taco-text{
+    width: 400px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.learn{
+    width: 150px;
+    font-weight: 100;
+    background-color: rgb(192, 192, 7);
+}
+
+.last{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.images{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px
+}
+.image{
+    width: 200px;
+}
+.boja{
+    background: linear-gradient(to right, rgba(255, 255, 0, 0), yellow );
+    width: 100%;
+    height: 20px;
+}
